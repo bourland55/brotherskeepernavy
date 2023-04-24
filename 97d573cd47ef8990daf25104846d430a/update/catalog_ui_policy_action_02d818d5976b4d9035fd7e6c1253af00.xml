@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:5f0d77c94723c990daf25104846d43d2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-17 18:23:57</sys_created_on>
+        <sys_id>02d818d5976b4d9035fd7e6c1253af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who_else_is_being_affected</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_02d818d5976b4d9035fd7e6c1253af00</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-17 18:23:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if yes to any others being affected">67b854d5976b4d9035fd7e6c1253af7b</ui_policy>
+        <variable>who_else_is_being_affected</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

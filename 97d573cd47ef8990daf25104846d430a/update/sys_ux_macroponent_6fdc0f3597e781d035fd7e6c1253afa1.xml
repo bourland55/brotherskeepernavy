@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "iframe_1",
+      "elementLabel" : "iFrame 1",
+      "propertyValues" : {
+        "title" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Wikipedia home page"
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://db5sandiegodemo.service-now.com/$pa_dashboard.do?sysparm_dashboard=afd176f997e381d035fd7e6c1253af22&amp;sysparm_tab=9ae136f997e381d035fd7e6c1253af67&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false"
+        },
+        "width" : {
+          "type" : "JSON_LITERAL",
+          "value" : "100%"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1000"
+        },
+        "disableSandbox" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "2eda8d95aae6d05a26d94fbf692ac6f9",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"iframe_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "height" : "1000"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"container_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column","height":"900","width":"100%","justify-content":"space-evenly","flex-wrap":"wrap"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Dashboard DBX</name>
+        <props>[ ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-19 20:47:16</sys_created_on>
+        <sys_id>6fdc0f3597e781d035fd7e6c1253afa1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Dashboard DBX</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6fdc0f3597e781d035fd7e6c1253afa1</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-19 20:52:58</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

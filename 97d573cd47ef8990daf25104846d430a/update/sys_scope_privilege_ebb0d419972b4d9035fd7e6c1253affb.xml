@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>grievance.one</sys_created_by>
+        <sys_created_on>2022-05-17 17:48:23</sys_created_on>
+        <sys_id>ebb0d419972b4d9035fd7e6c1253affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cxs_table_config</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>sys_scope_privilege_ebb0d419972b4d9035fd7e6c1253affb</sys_update_name>
+        <sys_updated_by>grievance.one</sys_updated_by>
+        <sys_updated_on>2022-05-17 17:48:23</sys_updated_on>
+        <target_name>cxs_table_config</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

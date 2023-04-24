@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="">04dabfc54723c990daf25104846d43e8</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-17 16:16:06</sys_created_on>
+        <sys_id>779bb3494723c990daf25104846d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Racial</sys_name>
+        <sys_package display_value="Grievance DB" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grievance DB">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>question_choice_779bb3494723c990daf25104846d4311</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-17 16:16:06</sys_updated_on>
+        <text>Racial</text>
+        <value>racial</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=779bb3494723c990daf25104846d4311"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</application>
+        <file_path/>
+        <instance_id>ad1930bcdb5205102f68c59705961979</instance_id>
+        <instance_name>db5sandiegodemo</instance_name>
+        <name>question_choice_779bb3494723c990daf25104846d4311</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>500</order><published_ref/><question display_value="">04dabfc54723c990daf25104846d43e8</question><sys_class_name>question_choice</sys_class_name><sys_created_by>david.bourland</sys_created_by><sys_created_on>2022-05-17 16:16:06</sys_created_on><sys_id>779bb3494723c990daf25104846d4311</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Racial</sys_name><sys_package display_value="Grievance DB" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package><sys_policy/><sys_scope display_value="Grievance DB">97d573cd47ef8990daf25104846d430a</sys_scope><sys_update_name>question_choice_779bb3494723c990daf25104846d4311</sys_update_name><sys_updated_by>david.bourland</sys_updated_by><sys_updated_on>2022-05-17 16:16:06</sys_updated_on><text>Racial</text><value>racial</value></question_choice><fx_price action="delete_multiple" query="id=779bb3494723c990daf25104846d4311"/></record_update>]]></payload>
+        <payload_hash>983789508</payload_hash>
+        <record_name>Racial</record_name>
+        <reverted_from/>
+        <source>9fd573cd47ef8990daf25104846d430c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-17 16:16:06</sys_created_on>
+        <sys_id>fb9bb3494723c990daf25104846d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180d2ce23ac0000001</sys_recorded_at>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-17 16:16:06</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>339bb3494e23c9904064c6edeb285a13</update_guid>
+        <update_guid_history>339bb3494e23c9904064c6edeb285a13:983789508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Racial">9b3a7b8797afc9d035fd7e6c1253afd4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-23 21:17:54</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0020e09dfb8e48608000472a4b207110</sys_id>
+        <sys_metadata>779bb3494723c990daf25104846d4311</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Racial</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_parent display_value="Type of Grievance">04dabfc54723c990daf25104846d43e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_scope_delete display_value="">2cac5185a32e4bb587fe2126fb690ed9</sys_scope_delete>
+        <sys_update_name>question_choice_779bb3494723c990daf25104846d4311</sys_update_name>
+        <sys_update_version display_value="question_choice_779bb3494723c990daf25104846d4311">fb9bb3494723c990daf25104846d4313</sys_update_version>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-23 21:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

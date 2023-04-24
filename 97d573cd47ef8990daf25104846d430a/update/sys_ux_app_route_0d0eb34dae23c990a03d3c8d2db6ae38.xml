@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Grievance Team Work Config">050eb34d4923c99053e73cc1c170cb39</app_config>
+        <description/>
+        <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
+        <icon/>
+        <name>Notification tray</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id>wsSidepanel</parent_macroponent_composition_element_id>
+        <route_type>notificationtray</route_type>
+        <screen_type display_value="Notification tray">c50eb34d5d23c9900311cace3c9d2c38</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-17 16:26:35</sys_created_on>
+        <sys_id>0d0eb34dae23c990a03d3c8d2db6ae38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>sys_ux_app_route_0d0eb34dae23c990a03d3c8d2db6ae38</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-17 16:26:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d0eb34dae23c990a03d3c8d2db6ae38"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Grievance Team Work Config">050eb34d4923c99053e73cc1c170cb39</app_config>
+        <description/>
+        <fields/>
+        <icon>graduation-cap-outline</icon>
+        <name>Agent assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>agentassisttab</route_type>
+        <screen_type display_value="Agent assist tab">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-17 16:26:35</sys_created_on>
+        <sys_id>850eb34d7e23c9904ddcb1addbda7f38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>sys_ux_app_route_850eb34d7e23c9904ddcb1addbda7f38</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-17 16:26:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=850eb34d7e23c9904ddcb1addbda7f38"/>
+</record_update>

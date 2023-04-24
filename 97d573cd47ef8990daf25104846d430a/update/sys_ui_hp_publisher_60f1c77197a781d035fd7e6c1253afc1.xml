@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
+    <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
+        <allow_database_view_filter>false</allow_database_view_filter>
+        <allow_extended_table>false</allow_extended_table>
+        <boolean_field/>
+        <boolean_table/>
+        <date_filter/>
+        <default_boolean_field/>
+        <default_choice/>
+        <default_date_filter/>
+        <default_reference_field_value/>
+        <description/>
+        <exclusion_choice_list/>
+        <look_up_name/>
+        <name>Type</name>
+        <reference_conditions/>
+        <reference_table/>
+        <remove_all_option>false</remove_all_option>
+        <source_field>type</source_field>
+        <source_table>x_snc_grievance_db_grievance</source_table>
+        <sys_class_name>sys_ui_hp_publisher</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2022-05-19 20:00:03</sys_created_on>
+        <sys_id>60f1c77197a781d035fd7e6c1253afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Type</sys_name>
+        <sys_package display_value="Brothers Keeper" source="x_snc_grievance_db">97d573cd47ef8990daf25104846d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brothers Keeper">97d573cd47ef8990daf25104846d430a</sys_scope>
+        <sys_update_name>sys_ui_hp_publisher_60f1c77197a781d035fd7e6c1253afc1</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2022-05-19 20:00:03</sys_updated_on>
+        <type>1</type>
+        <ui_control_type>4</ui_control_type>
+        <use_starts_with_on_search_keyword>false</use_starts_with_on_search_keyword>
+    </sys_ui_hp_publisher>
+</record_update>

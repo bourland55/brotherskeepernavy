@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Brothers Keeper" max_length="40" name="x_snc_grievance_db_grievance" sizeclass="10" text_index="true" type="collection">
+        <element label="Anonymous" max_length="255" name="anonymous" type="boolean"/>
+        <element label="Are others being affected?" max_length="40" name="are_others_being_affected" type="boolean"/>
+        <element default="Grievance team" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Beginning of Issue" max_length="40" name="beginning_of_issue" type="glide_date"/>
+        <element label="Can we contact you?" max_length="40" name="can_we_contact_you" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Do you have documentation?" max_length="40" name="do_you_have_documentation" type="boolean"/>
+        <element label="Grievance against" max_length="40" name="grievance_against" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned Leader" max_length="32" name="primary_worker" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Sailor" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work_in_progress"/>
+                <element inactive_on_update="false" label="Resolved - pending sailor" sequence="2" value="resolved_pending"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Mental Health" sequence="0" value="mental_health"/>
+                <element inactive_on_update="false" label="Mistreatment" sequence="1" value="physical_interactions"/>
+                <element inactive_on_update="false" label="Working Conditions" sequence="2" value="working_conditions"/>
+                <element inactive_on_update="false" label="Personal Wellbeing" sequence="3" value="personal_wellbeing"/>
+                <element inactive_on_update="false" label="Organizational Challenge" sequence="4" value="overall_treatment"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Racial" sequence="6" value="racial"/>
+                <element inactive="true" inactive_on_update="true" label="Discrimination" sequence="7" value="gender_discrimination"/>
+            </choice>
+        </element>
+        <element label="Who else is being affected?" max_length="40" name="who_else_is_being_affected" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="1000" name="work_notes" type="string"/>
+        <index name="index">
+            <element name="primary_worker"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>
